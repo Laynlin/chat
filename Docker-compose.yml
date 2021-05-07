@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+    front:
+        image: williamvatier98/
+        ports:
+            - "80:80"
+    back:
+        image: williamvatier98/
+        ports:
+            - "3001:3001"
